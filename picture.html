@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <h1>Belajar Menggunakan Elemen &lt;picture&gt; di HTML</h1>
+
+        <p>Gambar di bawah ini akan menyesuaikan ukurannya berdasarkan lebar layar perangkat yang digunakan:</p>
+
+        <picture>
+            <source media="(max-width: 500px)" srcset="user-white.jpeg">
+            <source media="(max-width: 1000px)" srcset="user-black.jpeg">
+            <img src="user.jpeg" alt="Foto Profil User" style="width: 250px; height: 250px;">
+        </picture>
+    </body>
+</html>
